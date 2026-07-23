@@ -45,7 +45,7 @@ export default function Index() {
           dark
         />
         <View style={styles.heroActions}>
-          {/* <Pressable
+          <Pressable
             style={({ pressed }) => [
               styles.primaryBtn,
               pressed && styles.pressed,
@@ -53,7 +53,7 @@ export default function Index() {
             onPress={() => router.push('/sermons')}
           >
             <Text style={styles.primaryBtnLabel}>Watch Sermons</Text>
-          </Pressable> */}
+          </Pressable>
           <Pressable
             style={({ pressed }) => [
               styles.secondaryBtn,
@@ -112,13 +112,13 @@ export default function Index() {
         />
         <View style={{ height: spacing.md }} />
         <ScrollableSermons />
-        {/* <Pressable
+        <Pressable
           style={styles.linkRow}
           onPress={() => router.push('/sermons')}
         >
           <Text style={styles.linkRowLabel}>Browse all sermon series</Text>
           <Ionicons name='arrow-forward' size={14} color={colors.gold} />
-        </Pressable> */}
+        </Pressable>
       </View>
 
       <View style={[styles.section, styles.scheduleSection]}>
@@ -152,10 +152,10 @@ export default function Index() {
               encodeURIComponent('የእምነትአቋም.pdf'),
           }}
         />
-        {/* <Pressable style={styles.linkRow} onPress={() => router.push('/books')}>
+        <Pressable style={styles.linkRow} onPress={() => router.push('/books')}>
           <Text style={styles.linkRowLabel}>Explore all books & resources</Text>
           <Ionicons name='arrow-forward' size={14} color={colors.gold} />
-        </Pressable> */}
+        </Pressable>
       </View>
 
       <View style={[styles.section, styles.contactSection]}>

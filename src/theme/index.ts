@@ -1,8 +1,3 @@
-// Design tokens for Gospel Truth Church Ethiopia app.
-// Palette moves away from generic "church app blue" toward a warm,
-// manuscript-inspired feel: deep ink navy, aged parchment, and a
-// muted gold used sparingly as the single accent.
-
 export const colors = {
   ink: '#0d1b2a', // near-black navy, primary text / hero background
   inkSoft: '#0d1b2a', // secondary dark surface
@@ -28,6 +23,7 @@ export const spacing = {
   lg: 24,
   xl: 32,
   xxl: 48,
+  xxxl: 64,
 }
 
 export const radius = {

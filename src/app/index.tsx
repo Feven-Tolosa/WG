@@ -76,14 +76,6 @@ export default function Index() {
 
       <View style={styles.section}>
         <SectionHeader
-          eyebrow='A Word From Our Pastor'
-          title='Welcome to Gospel Truth Church'
-        />
-        <Text style={styles.body}>{church.pastorWelcome}</Text>
-      </View>
-
-      <View style={styles.section}>
-        <SectionHeader
           eyebrow='What We Believe'
           title='Our Doctrinal Foundation'
         />
@@ -95,6 +87,14 @@ export default function Index() {
             </View>
           ))}
         </View>
+      </View>
+
+      <View style={styles.section}>
+        <SectionHeader
+          eyebrow='A Word From Our Pastor'
+          title='Welcome to Gospel Truth Church'
+        />
+        <Text style={styles.body}>{church.pastorWelcome}</Text>
       </View>
 
       <View style={styles.section}>
@@ -275,7 +275,7 @@ const styles = StyleSheet.create({
     color: colors.textOnDark,
   },
   pressed: { opacity: 0.75 },
-  section: { paddingHorizontal: spacing.lg, marginTop: spacing.xl },
+  section: { paddingHorizontal: spacing.lg, marginTop: spacing.xxxl },
   body: {
     fontFamily: fonts.body,
     fontSize: 14,

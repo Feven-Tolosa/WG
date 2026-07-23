@@ -4,8 +4,8 @@
 // muted gold used sparingly as the single accent.
 
 export const colors = {
-  ink: '#161A2B', // near-black navy, primary text / hero background
-  inkSoft: '#2B3150', // secondary dark surface
+  ink: '#0d1b2a', // near-black navy, primary text / hero background
+  inkSoft: '#0d1b2a', // secondary dark surface
   parchment: '#F7F2E7', // warm off-white background
   parchmentDim: '#EDE5D3', // card background on parchment
   gold: '#B98A3E', // single accent — used sparingly (links, dividers, icons)
@@ -19,7 +19,7 @@ export const colors = {
   textOnDarkSecondary: '#B9BAD1',
   white: '#FFFFFF',
   success: '#4C7A5E',
-};
+}
 
 export const spacing = {
   xs: 4,
@@ -28,14 +28,14 @@ export const spacing = {
   lg: 24,
   xl: 32,
   xxl: 48,
-};
+}
 
 export const radius = {
   sm: 6,
   md: 12,
   lg: 20,
   pill: 999,
-};
+}
 
 // Font family keys — actual fonts loaded via @expo-google-fonts in App.tsx
 export const fonts = {
@@ -44,7 +44,7 @@ export const fonts = {
   body: 'Inter_400Regular',
   bodyMedium: 'Inter_500Medium',
   bodySemiBold: 'Inter_600SemiBold',
-};
+}
 
 export const shadow = {
   card: {
@@ -54,4 +54,4 @@ export const shadow = {
     shadowRadius: 10,
     elevation: 3,
   },
-};
+}

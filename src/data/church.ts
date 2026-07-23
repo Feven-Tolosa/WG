@@ -15,25 +15,81 @@ export const church = {
   telegram: 'https://t.me/DawitFassilMinistry',
   facebook: 'https://www.facebook.com/Dawit-Fassil-Ministry-1873139229468315/',
   mapsUrl: 'https://maps.app.goo.gl/AXft8Dqg5noqpCFZ6',
-};
+}
 
 export type ScheduleItem = {
-  day: string;
-  title: string;
-  titleAmharic: string;
-  time: string;
-  note?: string;
-};
+  day: string
+  dayAmharic: string
+  title: string
+  titleAmharic: string
+  time: string
+  note?: string
+}
 
 export const schedule: ScheduleItem[] = [
-  { day: 'Sunday', title: 'Worship & Lord\u2019s Supper', titleAmharic: 'አምልኮና ጌታ እራት', time: '9:30 AM – 12:00 PM' },
-  { day: 'Sunday', title: 'Bible Teaching', titleAmharic: 'የቃሉ ትምህርት', time: '6:00 PM – 2:00 AM' },
+  {
+    day: 'Sunday',
+    dayAmharic: 'እሑድ',
+    title: 'Worship & Lord\u2019s Supper',
+    titleAmharic: 'አምልኮና ጌታ እራት',
+    time: '9:30 AM – 12:00 PM',
+  },
+  {
+    day: 'Sunday',
+    dayAmharic: 'እሑድ',
+    title: 'Bible Teaching',
+    titleAmharic: 'የቃሉ ትምህርት',
+    time: '6:00 PM – 2:00 AM',
+    note: 'Preceded by choir worship beginning at 5:00 PM',
+  },
+  {
+    day: 'Monday',
+    dayAmharic: 'ሰኞ',
+    title: 'Bible Teaching',
+    titleAmharic: 'የቃሉ ትምህርት',
+    time: '6:00 PM – 2:00 AM',
+  },
+  {
+    day: 'Tuesday',
+    dayAmharic: 'ማክሰኞ',
+    title: 'Prayer',
+    titleAmharic: 'ጸሎት',
+    time: '6:00 PM – 2:00 AM',
+  },
+  {
+    day: 'Wednesday',
+    dayAmharic: 'ረቡዕ',
+    title: 'Bible Study',
+    titleAmharic: 'የመጽሐፍ ቅዱስ ጥናት',
+    time: '6:00 PM – 2:00 AM',
+  },
+  {
+    day: 'Thursday',
+    dayAmharic: 'ሐሙስ',
+    title: 'Choir Practice',
+    titleAmharic: 'የዘማሪዎች ልምምድ',
+    time: '6:00 PM – 2:00 AM',
+  },
+  {
+    day: 'Friday',
+    dayAmharic: 'አርብ',
+    title: 'Worship & Praise',
+    titleAmharic: 'አምልኮና ምስጋና',
+    time: '6:00 PM – 2:00 AM',
+  },
   {
     day: 'Saturday',
+    dayAmharic: 'ቅዳሜ',
     title: 'Youth Fellowship',
     titleAmharic: 'የወጣቶች ኅብረት',
     time: '4:00 PM – 6:00 PM',
     note: 'Worship, preaching, and a solo song',
   },
-  { day: 'Saturday', title: 'Bible Study', titleAmharic: 'የመጽሐፍ ቅዱስ ጥናት', time: '6:00 PM – 2:00 AM' },
-];
+  {
+    day: 'Saturday',
+    dayAmharic: 'ቅዳሜ',
+    title: 'Bible Study',
+    titleAmharic: 'የመጽሐፍ ቅዱስ ጥናት',
+    time: '6:00 PM – 2:00 AM',
+  },
+]

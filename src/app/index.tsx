@@ -59,7 +59,7 @@ export default function Index() {
               styles.secondaryBtn,
               pressed && styles.pressed,
             ]}
-            onPress={() => Linking.openURL(church.mapsUrl)}
+            onPress={() => router.push('/schedule')}
           >
             <Text style={styles.secondaryBtnLabel}>Service Times</Text>
           </Pressable>
